@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router();
-const bcrypt = require('bcryptjs')
+const bcrypt = require('bcryptjs') // bcrypt to hash user password on requests
 const secure = require('../authorization-MW.js')
 
 const Users = require('./userModel');
